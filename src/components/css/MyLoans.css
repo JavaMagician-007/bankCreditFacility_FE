@@ -1,0 +1,38 @@
+.loan-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .loan-table th,
+  .loan-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .loan-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .loan-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .loan-table tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .loan-table tbody td:first-child {
+    font-weight: bold;
+  }
+  
+  .loan-table tbody td:last-child {
+    text-align: right;
+  }
+  
